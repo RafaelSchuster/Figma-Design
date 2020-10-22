@@ -73,13 +73,22 @@
     }
 
     .topdevider {
+        /* display: none; */
         position: absolute;
         width: 1440px;
         height: 1px;
         left: 0px;
-        right: 500px;
+        right: 700px;
         top: 60px;
         background: #EBEFF2;
+        z-index: 2;
+    }
+
+    .search {
+        position: absolute;
+        top: 22px;
+        left: 38px;
+
     }
 
     .sidebar {
@@ -89,6 +98,7 @@
         left: 0px;
         top: 0px;
         bottom: 0px;
+        background-color: white;
         box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
     }
 
@@ -249,6 +259,7 @@
     }
 
     .global {
+        display: inline-block;
         position: absolute;
         width: 120px;
         height: 18px;
@@ -262,11 +273,18 @@
         line-height: 18px;
         letter-spacing: 0.01em;
         color: #90A0B7;
+        background-color: white;
+        height: 40px;
+        width: 1184px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+
     }
 
     .globtext {
         position: absolute;
-        left: 33px;
+        left: 68px;
         bottom: 22px;
     }
 
@@ -296,7 +314,8 @@
 
     .bell {
         position: absolute;
-        left: 1050px;
+        left: 1128px;
+        top: 20px;
     }
 
     .red {
