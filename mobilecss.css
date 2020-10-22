@@ -1,0 +1,428 @@
+@media(max-width: 375px) {
+    .body {
+        font-family: 'Poppins', sans-serif;
+        width: 375px;
+        height: 812px;
+        background: #FFFFFF;
+    }
+
+    .dashboard {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .global {
+        position: absolute;
+        width: 120px;
+        height: 18px;
+        left: 20px;
+        top: 8px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        color: #90A0B7;
+        list-style-image: url('images/search.png');
+    }
+
+    .globtext {
+        position: absolute;
+        left: 27px;
+        bottom: 1px;
+    }
+
+    .bell {
+        position: absolute;
+        right: -150px;
+    }
+
+    .red {
+        position: absolute;
+        right: 0.5px;
+    }
+
+    .htask {
+        position: absolute;
+        left: 9px;
+        right: 0%;
+        top: 55px;
+        bottom: 0%;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #334D6E;
+    }
+
+    .htask2 {
+        position: absolute;
+        left: 9px;
+        right: 0%;
+        top: 130px;
+        bottom: -4.55%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #192A3E;
+    }
+
+    .send {
+        display: inline-block;
+        position: absolute;
+        height: 126px;
+        left: 0px;
+        top: 191px;
+        width: 310px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+    }
+
+    .invite {
+        display: inline-block;
+        position: absolute;
+        height: 126px;
+        left: 0px;
+        top: 350px;
+        width: 310px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.14);
+        border-radius: 4px;
+    }
+
+    .office {
+        display: inline-block;
+        position: absolute;
+        height: 126px;
+        top: 370px;
+        width: 310px;
+        margin-top: 150px;
+        padding-left: 20px;
+        padding-bottom: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.14);
+        border-radius: 4px;
+    }
+
+    .progress2 {
+        position: absolute;
+        top: 60px;
+        left: -14px;
+        right: 45px;
+    }
+
+    .line2 {
+        position: relative;
+        height: 4px;
+        left: 24px;
+        right: 141px;
+        top: 24px;
+    }
+
+    .smmonth {
+        position: absolute;
+        top: 672px;
+        left: 230px;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .arrow3 {
+        position: absolute;
+        top: 8px;
+        padding-left: 5px;
+    }
+
+    .monthly {
+        color: #109CF1;
+    }
+
+    .gray2 {
+        margin-left: 30px;
+        bottom: 40px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .topdevider {
+        position: absolute;
+        height: 2px;
+        width: 375px;
+        left: -7px;
+        right: 0px;
+        top: 170px;
+        background: #EBEFF2;
+    }
+
+    .topdevider2 {
+        position: absolute;
+        height: 2px;
+        width: 375px;
+        left: -7px;
+        right: 0px;
+        top: 700px;
+        background: #EBEFF2;
+    }
+
+    .due {
+        color: #4C5862;
+        opacity: 0.5;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+
+    }
+
+    .december {
+        padding-left: 5px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        color: #4C5862;
+    }
+
+    .week {
+        padding-left: 40px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .this {
+        color: #109CF1;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .smgraph {
+        position: absolute;
+        top: 750px;
+        left: 0px;
+    }
+
+    .taskschart {
+        display: none;
+    }
+
+    .deals {
+        display: none;
+    }
+
+    .days {
+        display: none;
+    }
+
+    .dates {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .show {
+        display: none;
+    }
+
+    .deals .closed {
+        display: inline-block;
+    }
+
+    .action {
+        position: absolute;
+        right: 15px;
+        padding-left: 50px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: 0.01em;
+        color: #90A0B7;
+    }
+
+    .namefont {
+        position: absolute;
+        padding-left: 7px;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .george {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 13px;
+        font-weight: 400;
+        color: #707683;
+    }
+
+    .georg {
+        border-radius: 50%;
+    }
+
+    .Rebecca {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    .rebecc {
+        border-radius: 50%;
+    }
+
+    .Lindsey {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    .lind {
+        border-radius: 50%;
+    }
+
+    .completed {
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 2px;
+        right: 13px;
+        width: 84px;
+        height: 18px;
+        font-size: 11px;
+        background-color: #2ED47A;
+        border-radius: 4px;
+        margin-left: 28rem;
+        border-width: 10rem;
+        color: white;
+    }
+
+    .completed2 {
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 2px;
+        width: 84px;
+        height: 18px;
+        right: 17px;
+        bottom: 24px;
+        font-size: 11px;
+        background-color: #2ED47A;
+        border-radius: 4px;
+        margin-left: 22rem;
+        border-width: 10rem;
+        color: white;
+    }
+
+    .ended {
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 2px;
+        width: 84px;
+        height: 18px;
+        bottom: 30px;
+        right: 15px;
+        font-size: 11px;
+        background-color: #F7685B;
+        border-radius: 4px;
+        margin-left: 22rem;
+        border-width: 10rem;
+        color: white;
+    }
+
+    .trash {
+        position: absolute;
+        right: 110px;
+    }
+
+    .reminder {
+        position: absolute;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        right: 20px;
+        top: 22px;
+        text-align: right;
+        letter-spacing: 0.01em;
+        color: #90A0B7;
+    }
+
+    .pen {
+        display: none;
+    }
+
+    .smclosed {
+        position: absolute;
+        padding: 20px;
+        margin-bottom: 30px;
+        left: -10px;
+        margin-top: 7px;
+        top: 700px;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .closedtext {
+        padding-left: 5px;
+    }
+
+    .progress,
+    .line,
+    .large,
+    .gray {
+        display: none;
+    }
+}
